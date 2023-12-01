@@ -337,4 +337,12 @@ footer {
         display: block;
     }
 
+    figure {
+        display: inline;
+    }
+
+    figure img {
+        float: left;
+        margin-right: 10px;
+    }
 }
