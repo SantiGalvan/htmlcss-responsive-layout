@@ -377,4 +377,13 @@ footer {
         display: inline;
     }
 
+    /* Footer */
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-list {
+        padding-top: 40px;
+    }
 }
