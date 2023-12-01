@@ -1,0 +1,37 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    background-color: #f4f3f1;
+}
+
+h1 {
+    font-family: 'Nerko One', cursive;
+    color: #ff9614;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px #000;
+    font-weight: normal;
+    padding: 0 20px;
+}
+
+
+/* Header */
+header {
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 0 3px gray;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        text-align: left;
+    }
+}
