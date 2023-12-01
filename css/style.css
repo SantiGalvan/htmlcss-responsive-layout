@@ -6,9 +6,18 @@
 }
 
 /* Generics */
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    ;
+}
+
 main {
     background-color: #f4f3f1;
-    padding: 50px;
+    padding: 0 50px;
+}
+
+section {
+    padding-top: 20px;
 }
 
 .container {
@@ -26,14 +35,49 @@ h1 {
     padding: 0 20px;
 }
 
-h2 {
+h3 {
     color: #7c69a4;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+
 }
 
 address {
     font-style: normal;
     text-transform: uppercase;
     color: gray;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Utils */
+
+.c-wh {
+    color: #fff;
+}
+
+.bc-or {
+    background-color: #f7972e;
+}
+
+.button {
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 
@@ -53,8 +97,85 @@ header {
 }
 
 /* Main */
+
+/* Section Recipe Name */
 .main-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
+}
+
+.rating {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating i {
+    color: #f7972e;
+}
+
+/* Section Recipe Info */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: 100%;
+    background-color: #fff;
+}
+
+.card-info {
+    padding: 20px;
+    background-color: #f6f5f9;
+    margin: 30px 20px;
+}
+
+.info-calories {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-calories span {
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: #7c69a4;
+    margin-bottom: 5px;
+}
+
+.more-info {
+    color: #f7972e;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.divider {
+    border: 1px solid #dedede;
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+
+.card-options {
+    padding: 10px;
+    margin: 30px 20px;
+}
+
+.info-category {
+    text-transform: uppercase;
+}
+
+.options-list li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.options-list li i {
+    color: #f7972e;
 }
