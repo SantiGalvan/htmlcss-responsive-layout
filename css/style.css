@@ -17,7 +17,7 @@ main {
 }
 
 section {
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 .container {
@@ -33,6 +33,12 @@ h1 {
     text-shadow: 0 1px 2px #000;
     font-weight: normal;
     padding: 0 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 h3 {
@@ -217,4 +223,27 @@ header {
     display: flex;
     justify-content: space-around;
     gap: 50px;
+}
+
+/* Section Presentation */
+
+.divider-small {
+    border: 1px solid #f7972e;
+    width: 25%;
+    display: block;
+    margin: 20px 0;
+}
+
+figure img {
+    width: 50%;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.presentation-paragraph {
+    font-size: 1.5rem;
 }
