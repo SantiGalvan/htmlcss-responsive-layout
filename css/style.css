@@ -66,11 +66,31 @@ ul {
     color: #fff;
 }
 
+.c-red {
+    color: #ff0000;
+}
+
+.c-vio {
+    color: #cd2685;
+}
+
+.c-az {
+    color: #179cf0;
+}
+
+.c-daz {
+    color: #0266ff;
+}
+
 .bc-or {
     background-color: #f7972e;
 }
 
-.button {
+.bc-wh {
+    background-color: #fff;
+}
+
+.button-xl {
     height: 50px;
     width: 100px;
     border-radius: 25px;
@@ -78,8 +98,20 @@ ul {
     line-height: 50px;
     text-transform: uppercase;
     font-weight: 600;
+    display: block;
 }
 
+.button-xs {
+    height: 50px;
+    width: 60px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    font-size: 1.2rem;
+}
 
 /* Header */
 header {
@@ -178,4 +210,11 @@ header {
 
 .options-list li i {
     color: #f7972e;
+}
+
+/* Section Recipe Social */
+.social-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
 }
