@@ -34,7 +34,7 @@ h2 {
 
 h3 {
     color: #7c69a4;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 a {
@@ -87,9 +87,9 @@ ul {
     background-color: #fff;
 }
 
-.button-xl {
+.button {
     height: 50px;
-    width: 100px;
+    width: 80px;
     border-radius: 25px;
     text-align: center;
     line-height: 50px;
@@ -98,7 +98,7 @@ ul {
     display: block;
 }
 
-.button-xs {
+.button-social {
     height: 50px;
     width: 60px;
     border-radius: 25px;
@@ -119,10 +119,8 @@ header {
     box-shadow: 0 0 3px gray;
 }
 
-@media screen and (min-width: 768px) {
-    h1 {
-        text-align: left;
-    }
+.more-title {
+    display: none;
 }
 
 /* Main */
@@ -144,7 +142,7 @@ section {
 }
 
 .rating {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -155,6 +153,11 @@ section {
 }
 
 /* Section Recipe Info */
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -224,6 +227,11 @@ section {
     gap: 50px;
 }
 
+/* Section Recipe Banner */
+#banner {
+    display: none;
+}
+
 /* Section Presentation */
 #recipe-presentation {
     padding-bottom: 40px;
@@ -283,4 +291,50 @@ footer {
 .footer-ul li a {
     text-decoration: underline;
     color: #fff;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    h1 {
+        text-align: left;
+    }
+
+    /* Main */
+    main {
+        padding: 20px 50px;
+    }
+
+    /* Section Recipe Name */
+    .more-title {
+        display: inline;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    /* Section Recipe info */
+    .options-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    /* Section Recipe Social */
+    .social-list {
+        gap: 10px;
+    }
+
+    .button-social {
+        width: 120px;
+    }
+
+    /* Section Recipe Banner */
+    #banner {
+        display: block;
+    }
+
 }
